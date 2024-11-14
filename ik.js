@@ -26,8 +26,8 @@ function resourceToImageLink(resourceName)
 {
 	const resourceMap = {
         gold: 'data/r1.gif',
-        wood: 'data/r2.gif',
-        stone: 'data/r3.gif'
+        wood: 'data/r3.gif',
+        stone: 'data/r2.gif'
     };
 
     return resourceMap[resourceName] || '';
